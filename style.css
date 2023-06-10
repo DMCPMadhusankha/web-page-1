@@ -1,0 +1,124 @@
+.b{
+    background-image: url("background.jpg");
+    background-size: 100%;
+    background-position-y: -80px;
+   
+}
+
+.i{
+    width: 135px;
+    margin-top: 20px;
+    margin-left: 35px;
+    position:absolute;
+}
+
+.list1{
+    list-style: none;
+    position: absolute;
+    margin-left: 340px;
+    margin-top: 20px;
+}
+
+.item1{
+    display: inline;
+    margin-left: 38px;
+    font-family: "Gotham";
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.list2{
+    list-style: none;
+    position: absolute;
+    margin-left: 1165px;
+    margin-top: 20px;
+}
+
+@font-face{
+    font-family: "Gotham";
+    src:url("Gotham.woff2");
+}
+
+.p1{
+    font-family: "Gotham";
+    position: absolute;
+    font-size: 43px;
+    font-weight: bold;
+    margin-top: 120px;
+    margin-left: 675px;
+    color: white;
+}
+
+.group{
+  
+    margin-left: 90px;
+    color: white;
+    text-align: center;
+    font-family: "Gotham";
+    font-weight: bold;
+   
+}
+
+.text1{
+    font-size: 25px;  
+}
+
+.text2{
+    font-size: 13px;
+    margin-top: -20px;
+}
+
+.text3{
+    font-size: 30px;
+    
+}
+
+.bottomlist{
+    list-style: none;
+    position: absolute;
+    margin-top: 595px;
+    margin-left: 250px;
+}
+
+.bottomitem{
+    display: inline-block;
+}
+
+.bottombutton{
+    display: inline-block;
+    margin-top: 105px;
+    margin-left: 100px;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    color: white; 
+    font-size: 13px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Gotham";
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.bottombutton:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.item1:hover{
+    background-color: rgba(128, 128, 128, 0.347);
+    padding: 8px;
+    transition-duration: 1s;
+    border-radius: 10px;
+    cursor: pointer;
+     
+}
+
+
+ 
